@@ -11,9 +11,19 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+		setupUI()
 	}
 
-
+	fileprivate func setupUI() {
+		view.backgroundColor = UIColor.white
+		
+		
+	}
+	
+	private var mask: UIView = {
+		let view = UIView()
+		view.backgroundColor = .black
+		return view
+	}()
 }
 

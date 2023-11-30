@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3B96955E2B1831EE00622646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B96955D2B1831EE00622646 /* AppDelegate.swift */; };
-		3B9695602B1831EE00622646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B96955F2B1831EE00622646 /* SceneDelegate.swift */; };
 		3B9695622B1831EE00622646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9695612B1831EE00622646 /* ViewController.swift */; };
 		3B9695652B1831EE00622646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9695632B1831EE00622646 /* Main.storyboard */; };
 		3B9695672B1831F000622646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9695662B1831F000622646 /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		3B96955A2B1831EE00622646 /* BackCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B96955D2B1831EE00622646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B96955F2B1831EE00622646 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B9695612B1831EE00622646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B9695642B1831EE00622646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B9695662B1831F000622646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				3B96955D2B1831EE00622646 /* AppDelegate.swift */,
-				3B96955F2B1831EE00622646 /* SceneDelegate.swift */,
 				3B9695612B1831EE00622646 /* ViewController.swift */,
 				3B9695632B1831EE00622646 /* Main.storyboard */,
 				3B9695662B1831F000622646 /* Assets.xcassets */,
@@ -260,7 +257,6 @@
 			files = (
 				3B9695622B1831EE00622646 /* ViewController.swift in Sources */,
 				3B96955E2B1831EE00622646 /* AppDelegate.swift in Sources */,
-				3B9695602B1831EE00622646 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +441,7 @@
 				DEVELOPMENT_TEAM = LJLYMX5V98;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BackCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Back;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -457,9 +454,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linkj.BackCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,6 +474,7 @@
 				DEVELOPMENT_TEAM = LJLYMX5V98;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BackCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Back;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -485,9 +487,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linkj.BackCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
